@@ -1,0 +1,29 @@
+// UI组件模块
+pub mod sidebar;
+pub mod toolbar;
+pub mod chapter_list;
+pub mod chapter_form;
+pub mod chapter_management;
+pub mod editor;
+pub mod inspiration_list;
+pub mod inspiration_management;
+pub mod header;
+pub mod novel_form;
+pub mod novel_detail;
+pub mod novel_management;
+pub mod stats_view;
+pub mod settings_view;
+pub mod status_bar;
+pub mod inspiration_stats;
+
+pub use header::Header;
+pub use sidebar::Sidebar;
+pub use novel_form::NovelForm;
+pub use novel_detail::NovelDetail;
+pub use status_bar::StatusBar;
+pub use chapter_list::ChapterList;
+pub use chapter_form::ChapterForm;
+pub use chapter_management::ChapterManagement;
+pub use editor::Editor;
+pub use inspiration_stats::InspirationStatsView;
+pub use stats_view::StatsView;
